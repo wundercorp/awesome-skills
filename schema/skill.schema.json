@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Awesome Skills entry",
+  "type": "object",
+  "required": [
+    "slug",
+    "skillId",
+    "displayName",
+    "category",
+    "description",
+    "githubUrl",
+    "license",
+    "status"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "slug": {
+      "type": "string"
+    },
+    "skillId": {
+      "type": "string"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "githubUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "skillsShUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "install": {
+      "type": "object"
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "license": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

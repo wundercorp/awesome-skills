@@ -1,0 +1,28 @@
+{
+  "slug": "cleaner",
+  "skillId": "cleaner",
+  "displayName": "Cleaner",
+  "category": "maintenance",
+  "description": "Public-release repository cleaning guidance for removing OS junk, archive metadata, caches, logs, local deployment state, private env files, local databases, dependency artifacts, build clutter, and secret-like content before GitHub pushes or other public deployments.",
+  "repositoryName": "cleaner-skill",
+  "githubUrl": "https://github.com/wundercorp/cleaner-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/cleaner-skill/cleaner",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/cleaner-skill --skill cleaner",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/cleaner-skill --skill cleaner"
+  },
+  "topics": [
+    "ai-skill",
+    "repo-cleanup",
+    "git-hooks",
+    "github",
+    "deployment",
+    "security"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

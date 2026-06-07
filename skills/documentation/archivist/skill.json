@@ -1,0 +1,29 @@
+{
+  "slug": "archivist",
+  "skillId": "archivist",
+  "displayName": "Archivist",
+  "category": "documentation",
+  "description": "Repository history and change-maintenance guidance for keeping changelogs, change records, release notes, ADRs, migration notes, API notes, deployment notes, and GitHub review templates up to date whenever codebases change.",
+  "repositoryName": "archivist-skill",
+  "githubUrl": "https://github.com/wundercorp/archivist-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/archivist-skill/archivist",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/archivist-skill --skill archivist",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/archivist-skill --skill archivist"
+  },
+  "topics": [
+    "ai-skill",
+    "changelog",
+    "release-notes",
+    "adr",
+    "github",
+    "documentation",
+    "change-management"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

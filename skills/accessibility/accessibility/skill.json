@@ -1,0 +1,31 @@
+{
+  "slug": "accessibility",
+  "skillId": "accessibility",
+  "displayName": "Accessibility",
+  "category": "accessibility",
+  "description": "Inclusive UI accessibility guidance for semantic HTML, ARIA, keyboard navigation, focus management, screen-reader behavior, accessible forms, reduced motion, landmarks, live regions, and assistive-technology-friendly components across frontend apps.",
+  "repositoryName": "accessibility-skill",
+  "githubUrl": "https://github.com/wundercorp/accessibility-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/accessibility-skill/accessibility",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/accessibility-skill --skill accessibility",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/accessibility-skill --skill accessibility"
+  },
+  "topics": [
+    "ai-skill",
+    "accessibility",
+    "a11y",
+    "aria",
+    "keyboard-navigation",
+    "frontend",
+    "semantic-html",
+    "assistive-technology",
+    "forms"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

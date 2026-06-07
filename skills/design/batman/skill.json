@@ -1,0 +1,29 @@
+{
+  "slug": "batman",
+  "skillId": "batman",
+  "displayName": "Batman",
+  "category": "design",
+  "description": "Dark-mode-first website theming guidance for adding accessible light/dark switches, root theme contracts, no-flash initialization, persisted preferences, semantic tokens, and common theming pitfall prevention across frontend codebases.",
+  "repositoryName": "batman-skill",
+  "githubUrl": "https://github.com/wundercorp/batman-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/batman-skill/batman",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/batman-skill --skill batman",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/batman-skill --skill batman"
+  },
+  "topics": [
+    "ai-skill",
+    "dark-mode",
+    "theme-toggle",
+    "accessibility",
+    "frontend",
+    "design-system",
+    "css"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

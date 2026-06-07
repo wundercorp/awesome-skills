@@ -1,0 +1,30 @@
+{
+  "slug": "ogilvideo",
+  "skillId": "ogilvideo",
+  "displayName": "Ogilvideo",
+  "category": "media",
+  "description": "Motion-director-grade video analysis, storyboarding, prompt engineering, animation planning, agentic AI video direction, UI motion systems, production breakdowns, and QA for premium product videos and motion graphics.",
+  "repositoryName": "ogilvideo-skill",
+  "githubUrl": "https://github.com/wundercorp/ogilvideo-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/ogilvideo-skill/ogilvideo",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/ogilvideo-skill --skill ogilvideo",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/ogilvideo-skill --skill ogilvideo"
+  },
+  "topics": [
+    "ai-skill",
+    "motion-design",
+    "video-production",
+    "ai-video",
+    "storyboarding",
+    "animation",
+    "product-marketing",
+    "creative-direction"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

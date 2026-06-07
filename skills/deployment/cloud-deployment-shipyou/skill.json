@@ -1,0 +1,27 @@
+{
+  "slug": "cloud-deployment-shipyou",
+  "skillId": "cloud-deployment-shipyou",
+  "displayName": "Cloud Deployment for ShipYou",
+  "category": "deployment",
+  "description": "Deployment-readiness guidance for containerizing apps, producing Docker-friendly source bundles, adding health checks, and preparing projects for ShipYou handoff.",
+  "repositoryName": "cloud-deployment-shipyou-skill",
+  "githubUrl": "https://github.com/wundercorp/cloud-deployment-shipyou-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/cloud-deployment-shipyou-skill/cloud-deployment-shipyou",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/cloud-deployment-shipyou-skill --skill cloud-deployment-shipyou",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/cloud-deployment-shipyou-skill --skill cloud-deployment-shipyou"
+  },
+  "topics": [
+    "ai-skill",
+    "docker",
+    "deployment",
+    "containerization",
+    "shipyou"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

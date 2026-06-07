@@ -1,0 +1,27 @@
+{
+  "slug": "professional-developer",
+  "skillId": "professional-developer",
+  "displayName": "Professional Developer",
+  "category": "development",
+  "description": "Production-grade development guidance for clean structure, formatting, design patterns, testing, maintainability, and professional code review behavior.",
+  "repositoryName": "professional-developer-skill",
+  "githubUrl": "https://github.com/wundercorp/professional-developer-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/professional-developer-skill/professional-developer",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/professional-developer-skill --skill professional-developer",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/professional-developer-skill --skill professional-developer"
+  },
+  "topics": [
+    "ai-skill",
+    "developer-tools",
+    "code-quality",
+    "software-architecture",
+    "refactoring"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

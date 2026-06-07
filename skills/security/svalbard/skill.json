@@ -1,0 +1,32 @@
+{
+  "slug": "svalbard",
+  "skillId": "svalbard",
+  "displayName": "Svalbard",
+  "category": "security",
+  "description": "Security-first application architecture and hardening guidance for secure-by-default apps, authentication, authorization, input validation, browser headers, secrets, data protection, abuse controls, containers, CI/CD, and release verification.",
+  "repositoryName": "svalbard-skill",
+  "githubUrl": "https://github.com/wundercorp/svalbard-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/svalbard-skill/svalbard",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/svalbard-skill --skill svalbard",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/svalbard-skill --skill svalbard"
+  },
+  "topics": [
+    "ai-skill",
+    "developer-tools",
+    "security",
+    "application-security",
+    "secure-by-default",
+    "threat-modeling",
+    "hardening",
+    "frontend",
+    "backend",
+    "devsecops"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

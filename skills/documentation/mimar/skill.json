@@ -1,0 +1,30 @@
+{
+  "slug": "mimar",
+  "skillId": "mimar",
+  "displayName": "Mimar",
+  "category": "documentation",
+  "description": "Architecture documentation generation guidance and tooling for automatically creating and maintaining ARCHITECTURE.md files with Markdown-friendly diagrams, directory maps, run flows, dependency maps, feature boundaries, implementation notes, and codebase design explanations.",
+  "repositoryName": "mimar-skill",
+  "githubUrl": "https://github.com/wundercorp/mimar-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/mimar-skill/mimar",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/mimar-skill --skill mimar",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/mimar-skill --skill mimar"
+  },
+  "topics": [
+    "ai-skill",
+    "developer-tools",
+    "architecture",
+    "documentation",
+    "markdown",
+    "diagrams",
+    "codebase-analysis",
+    "handoff"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

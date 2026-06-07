@@ -1,0 +1,29 @@
+{
+  "slug": "linguist",
+  "skillId": "linguist",
+  "displayName": "Linguist",
+  "category": "localization",
+  "description": "Internationalization implementation guidance for auto-configuring multilingual sites with locale routing, translation keys, fallback languages, formatting, SEO hreflang metadata, extraction checks, and localization documentation.",
+  "repositoryName": "linguist-skill",
+  "githubUrl": "https://github.com/wundercorp/linguist-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/linguist-skill/linguist",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/linguist-skill --skill linguist",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/linguist-skill --skill linguist"
+  },
+  "topics": [
+    "ai-skill",
+    "i18n",
+    "localization",
+    "multilingual",
+    "frontend",
+    "seo",
+    "accessibility"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

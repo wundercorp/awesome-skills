@@ -1,0 +1,29 @@
+{
+  "slug": "themable",
+  "skillId": "themable",
+  "displayName": "Themable",
+  "category": "design",
+  "description": "Website theme palette guidance for adding switchable theme families, semantic token utilities, accessible palette pickers, persisted preferences, CSS variable generation, and anti-pattern prevention across frontend codebases.",
+  "repositoryName": "themable-skill",
+  "githubUrl": "https://github.com/wundercorp/themable-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/themable-skill/themable",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/themable-skill --skill themable",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/themable-skill --skill themable"
+  },
+  "topics": [
+    "ai-skill",
+    "themes",
+    "design-system",
+    "palettes",
+    "frontend",
+    "css",
+    "accessibility"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

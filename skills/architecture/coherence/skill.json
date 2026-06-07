@@ -1,0 +1,29 @@
+{
+  "slug": "coherence",
+  "skillId": "coherence",
+  "displayName": "Coherence",
+  "category": "architecture",
+  "description": "Prompt, skill, and technology-direction reconciliation guidance for turning mismatched requirements, overlapping skills, contradictory instructions, and implementation anti-patterns into a coherent strategy that works well together.",
+  "repositoryName": "coherence-skill",
+  "githubUrl": "https://github.com/wundercorp/coherence-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/coherence-skill/coherence",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/coherence-skill --skill coherence",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/coherence-skill --skill coherence"
+  },
+  "topics": [
+    "ai-skill",
+    "prompt-engineering",
+    "software-architecture",
+    "technical-strategy",
+    "anti-patterns",
+    "documentation",
+    "change-management"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

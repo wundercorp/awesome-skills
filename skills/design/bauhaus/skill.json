@@ -1,0 +1,30 @@
+{
+  "slug": "bauhaus",
+  "skillId": "bauhaus",
+  "displayName": "Bauhaus",
+  "category": "design",
+  "description": "Bold visual design language guidance for building modern premium interfaces with oversized typography, geometric composition, disciplined color systems, section-level contrast, and striking yet consistent theme expression.",
+  "repositoryName": "bauhaus-skill",
+  "githubUrl": "https://github.com/wundercorp/bauhaus-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/bauhaus-skill/bauhaus",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/bauhaus-skill --skill bauhaus",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/bauhaus-skill --skill bauhaus"
+  },
+  "topics": [
+    "ai-skill",
+    "visual-design",
+    "design-system",
+    "typography",
+    "frontend",
+    "branding",
+    "css",
+    "themes"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

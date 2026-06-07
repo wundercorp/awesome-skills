@@ -1,0 +1,30 @@
+{
+  "slug": "doctor",
+  "skillId": "doctor",
+  "displayName": "Doctor",
+  "category": "development",
+  "description": "Runtime dependency doctor and generated-app auto-healing guidance for unresolved imports, missing packages, stale installs, package.json drift, lockfile drift, Vite import-analysis errors, module-not-found failures, and dev-server preview failures.",
+  "repositoryName": "doctor-skill",
+  "githubUrl": "https://github.com/wundercorp/doctor-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/doctor-skill/doctor",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/doctor-skill --skill doctor",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/doctor-skill --skill doctor"
+  },
+  "topics": [
+    "ai-skill",
+    "developer-tools",
+    "debugging",
+    "runtime",
+    "dependencies",
+    "vite",
+    "frontend",
+    "auto-healing"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "patcher",
+  "skillId": "patcher",
+  "displayName": "Patcher",
+  "category": "security",
+  "description": "Severity-ordered vulnerability patching guidance and tooling for Docker containers, dependency CVEs, zero-day mitigations, frontend security issues, backend package vulnerabilities, CI/CD supply-chain risks, and other exploitable codebase issues while preserving install, build, test, run, and deployment behavior.",
+  "repositoryName": "patcher-skill",
+  "githubUrl": "https://github.com/wundercorp/patcher-skill",
+  "skillsShUrl": "https://skills.sh/wundercorp/patcher-skill/patcher",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/wundercorp/patcher-skill --skill patcher",
+    "yarn": "yarn dlx skills add https://github.com/wundercorp/patcher-skill --skill patcher"
+  },
+  "topics": [
+    "ai-skill",
+    "developer-tools",
+    "security",
+    "vulnerability-management",
+    "cve",
+    "docker",
+    "dependencies",
+    "frontend",
+    "supply-chain"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "wundercorp",
+    "url": "https://github.com/wundercorp"
+  },
+  "status": "active"
+}
