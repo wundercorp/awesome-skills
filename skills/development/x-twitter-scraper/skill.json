@@ -1,0 +1,28 @@
+{
+  "slug": "x-twitter-scraper",
+  "skillId": "x-twitter-scraper",
+  "displayName": "Xquik X Twitter Scraper",
+  "category": "development",
+  "description": "Xquik API workflows for public X/Twitter search, follower exports, social listening, MCP, webhooks, and confirmation-gated actions.",
+  "repositoryName": "x-twitter-scraper",
+  "githubUrl": "https://github.com/Xquik-dev/x-twitter-scraper",
+  "skillsShUrl": "https://skills.sh/Xquik-dev/x-twitter-scraper/x-twitter-scraper",
+  "install": {
+    "npx": "npx --yes skills add https://github.com/Xquik-dev/x-twitter-scraper --skill x-twitter-scraper",
+    "yarn": "yarn dlx skills add https://github.com/Xquik-dev/x-twitter-scraper --skill x-twitter-scraper"
+  },
+  "topics": [
+    "ai-skill",
+    "x-api",
+    "social-listening",
+    "mcp",
+    "webhooks"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "Xquik-dev",
+    "url": "https://github.com/Xquik-dev"
+  },
+  "notice": "Xquik is an independent third-party service. Not affiliated with X Corp. \"Twitter\" and \"X\" are trademarks of X Corp.",
+  "status": "active"
+}

@@ -5,6 +5,7 @@ const catalogRootDirectory = process.cwd();
 const catalogEntriesDirectory = path.join(catalogRootDirectory, 'skills');
 const requiredFieldNames = ["slug", "skillId", "displayName", "category", "description", "githubUrl", "license", "status"];
 const seenSlugs = new Set();
+const seenSkillIds = new Set();
 const validationErrors = [];
 
 function listJsonEntryFiles(directoryPath) {
@@ -44,8 +45,21 @@ function validateUrlValue(jsonFilePath, fieldName, fieldValue) {
   if (fieldValue.length === 0) {
     return;
   }
-  if (!fieldValue.startsWith('https://')) {
+  let parsedUrl;
+  try {
+    parsedUrl = new URL(fieldValue);
+  } catch {
+    validationErrors.push(`${jsonFilePath} field ${fieldName} must be a valid URL`);
+    return;
+  }
+  if (parsedUrl.protocol !== 'https:') {
     validationErrors.push(`${jsonFilePath} field ${fieldName} must use https://`);
+  }
+  if (!parsedUrl.hostname) {
+    validationErrors.push(`${jsonFilePath} field ${fieldName} must include a hostname`);
+  }
+  if (parsedUrl.username || parsedUrl.password) {
+    validationErrors.push(`${jsonFilePath} field ${fieldName} must not include credentials`);
   }
 }
 
@@ -59,6 +73,12 @@ for (const entryFilePath of entryFilePaths) {
   const pathParts = relativeEntryPath.split(path.sep);
   const folderCategory = pathParts[0];
   const folderSlug = pathParts[1];
+  if (pathParts.length !== 3) {
+    validationErrors.push(
+      `${entryFilePath} must use skills/<category>/<slug>/skill.json`,
+    );
+    continue;
+  }
   for (const requiredFieldName of requiredFieldNames) {
     const requiredFieldValue = entryData[requiredFieldName];
     if (typeof requiredFieldValue !== 'string' || requiredFieldValue.trim().length === 0) {
@@ -75,6 +95,10 @@ for (const entryFilePath of entryFilePaths) {
     validationErrors.push(`${entryFilePath} duplicates slug ${entryData.slug}`);
   }
   seenSlugs.add(entryData.slug);
+  if (seenSkillIds.has(entryData.skillId)) {
+    validationErrors.push(`${entryFilePath} duplicates skillId ${entryData.skillId}`);
+  }
+  seenSkillIds.add(entryData.skillId);
   for (const [fieldName, fieldValue] of Object.entries(entryData)) {
     if (fieldName.endsWith('_url') || fieldName === 'githubUrl' || fieldName === 'skillsShUrl' || fieldName === 'homepage_url' || fieldName === 'agent_card_url' || fieldName === 'agent_json_url' || fieldName === 'a2a_endpoint_url') {
       validateUrlValue(entryFilePath, fieldName, fieldValue);
