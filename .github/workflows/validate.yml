@@ -15,5 +15,6 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/validate-catalog.mjs
+      - run: node --test scripts/validate-catalog.test.mjs
       - run: node scripts/generate-readme.mjs
       - run: git diff --exit-code README.md
