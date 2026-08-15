@@ -1,0 +1,30 @@
+{
+  "slug": "multi-source-search",
+  "skillId": "multi-source-search",
+  "displayName": "Multi-Source Search",
+  "category": "knowledge",
+  "description": "Parallel research across web and academic search providers with cross-source validation, confidence scoring, source mapping, and explicit disagreement analysis.",
+  "repositoryName": "sandbase-skills",
+  "githubUrl": "https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search",
+  "skillsShUrl": "https://skills.sh/sandbaseai/sandbase-skills/multi-source-search",
+  "install": {
+    "npx": "npx --yes skills add sandbaseai/sandbase-skills --skill multi-source-search --agent codex",
+    "yarn": "yarn dlx skills add sandbaseai/sandbase-skills --skill multi-source-search --agent codex"
+  },
+  "topics": [
+    "ai-skill",
+    "research",
+    "multi-source-search",
+    "fact-checking",
+    "cross-validation",
+    "academic-search",
+    "tavily",
+    "exa"
+  ],
+  "license": "Apache-2.0",
+  "provider": {
+    "name": "sandbaseai",
+    "url": "https://github.com/sandbaseai"
+  },
+  "status": "active"
+}

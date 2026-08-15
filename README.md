@@ -56,6 +56,12 @@ node scripts/generate-readme.mjs
 | Archivist | Repository history and change-maintenance guidance for keeping changelogs, change records, release notes, ADRs, migration notes, API notes, deployment notes, and GitHub review templates up to date whenever codebases change. | `npx --yes skills add https://github.com/wundercorp/archivist-skill --skill archivist` | [GitHub](https://github.com/wundercorp/archivist-skill)<br>[skills.sh](https://skills.sh/wundercorp/archivist-skill/archivist) |
 | Mimar | Architecture documentation generation guidance and tooling for automatically creating and maintaining ARCHITECTURE.md files with Markdown-friendly diagrams, directory maps, run flows, dependency maps, feature boundaries, implementation notes, and codebase design explanations. | `npx --yes skills add https://github.com/wundercorp/mimar-skill --skill mimar` | [GitHub](https://github.com/wundercorp/mimar-skill)<br>[skills.sh](https://skills.sh/wundercorp/mimar-skill/mimar) |
 
+### Knowledge
+
+| Skill | Description | Install | Links |
+|---|---|---|---|
+| Multi-Source Search | Parallel research across web and academic search providers with cross-source validation, confidence scoring, source mapping, and explicit disagreement analysis. | `npx --yes skills add sandbaseai/sandbase-skills --skill multi-source-search --agent codex` | [GitHub](https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search)<br>[skills.sh](https://skills.sh/sandbaseai/sandbase-skills/multi-source-search) |
+
 ### Localization
 
 | Skill | Description | Install | Links |
