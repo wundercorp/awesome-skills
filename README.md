@@ -73,6 +73,7 @@ node scripts/generate-readme.mjs
 | Skill | Description | Install | Links |
 |---|---|---|---|
 | Ogilvideo | Motion-director-grade video analysis, storyboarding, prompt engineering, animation planning, agentic AI video direction, UI motion systems, production breakdowns, and QA for premium product videos and motion graphics. | `npx --yes skills add https://github.com/wundercorp/ogilvideo-skill --skill ogilvideo` | [GitHub](https://github.com/wundercorp/ogilvideo-skill)<br>[skills.sh](https://skills.sh/wundercorp/ogilvideo-skill/ogilvideo) |
+| Yuanjing AI Image Connect | Connect a compatible desktop agent to Yuanjing AI for image generation, image editing, and ecommerce product visuals. The public guide connects an eligible Yuanjing AI account to the official skill. | `npx skills add zhouguida123-svg/yuanjing-image-connect --skill yuanjing-image-connect` | [GitHub](https://github.com/zhouguida123-svg/yuanjing-image-connect)<br>[skills.sh](https://www.skills.sh/zhouguida123-svg/yuanjing-image-connect/yuanjing-image-connect) |
 
 ### Security
 

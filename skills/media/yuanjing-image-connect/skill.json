@@ -1,0 +1,24 @@
+{
+  "slug": "yuanjing-image-connect",
+  "skillId": "yuanjing-image-connect",
+  "displayName": "Yuanjing AI Image Connect",
+  "category": "media",
+  "description": "Connect a compatible desktop agent to Yuanjing AI for image generation, image editing, and ecommerce product visuals. The public guide connects an eligible Yuanjing AI account to the official skill.",
+  "repositoryName": "yuanjing-image-connect",
+  "githubUrl": "https://github.com/zhouguida123-svg/yuanjing-image-connect",
+  "skillsShUrl": "https://www.skills.sh/zhouguida123-svg/yuanjing-image-connect/yuanjing-image-connect",
+  "install": {
+    "npx": "npx skills add zhouguida123-svg/yuanjing-image-connect --skill yuanjing-image-connect"
+  },
+  "topics": [
+    "image-generation",
+    "image-editing",
+    "ecommerce"
+  ],
+  "license": "Yuanjing AI Agent Skill License",
+  "provider": {
+    "name": "Yuanjing AI",
+    "url": "https://yuanjing-ai.com"
+  },
+  "status": "active"
+}
