@@ -26,6 +26,12 @@ node scripts/generate-readme.mjs
 |---|---|---|---|
 | Coherence | Prompt, skill, and technology-direction reconciliation guidance for turning mismatched requirements, overlapping skills, contradictory instructions, and implementation anti-patterns into a coherent strategy that works well together. | `npx --yes skills add https://github.com/wundercorp/coherence-skill --skill coherence` | [GitHub](https://github.com/wundercorp/coherence-skill)<br>[skills.sh](https://skills.sh/wundercorp/coherence-skill/coherence) |
 
+### Data
+
+| Skill | Description | Install | Links |
+|---|---|---|---|
+| GoVisit Search Places | Help travel agents find canonical GoVisit place profiles by name or traveler intent, with optional country, destination, and proximity filters. | `npx skills add inhotel-io/govisit-toolkit --skill govisit-search-places` | [GitHub](https://github.com/inhotel-io/govisit-toolkit/tree/main/skills/govisit-search-places) |
+
 ### Deployment
 
 | Skill | Description | Install | Links |

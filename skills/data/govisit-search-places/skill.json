@@ -1,0 +1,23 @@
+{
+  "slug": "govisit-search-places",
+  "skillId": "govisit-search-places",
+  "displayName": "GoVisit Search Places",
+  "category": "data",
+  "description": "Help travel agents find canonical GoVisit place profiles by name or traveler intent, with optional country, destination, and proximity filters.",
+  "githubUrl": "https://github.com/inhotel-io/govisit-toolkit/tree/main/skills/govisit-search-places",
+  "install": {
+    "npx": "npx skills add inhotel-io/govisit-toolkit --skill govisit-search-places"
+  },
+  "topics": [
+    "travel",
+    "places",
+    "discovery",
+    "read-only"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "GoVisit",
+    "url": "https://govisit.ai/en/docs/developers/agent-skills/overview"
+  },
+  "status": "active"
+}
