@@ -1,0 +1,23 @@
+{
+  "slug": "redya-xiaohongshu",
+  "skillId": "redya-xiaohongshu",
+  "displayName": "小红书图文与实况图·红鸦 AI",
+  "category": "media",
+  "description": "Generate illustrated Xiaohongshu posts and Live Photos from a topic, product photos, or a reference post. Generation uses the creator’s RedYA API key and credits.",
+  "repositoryName": "redya-skills",
+  "githubUrl": "https://github.com/xiaoxuux/redya-skills/tree/73a1529fd3cb9303195b7370d492dbf57a6b7604/skill/redya-xiaohongshu",
+  "install": {
+    "npx": "npx skills add https://raw.githubusercontent.com/xiaoxuux/redya-skills/73a1529fd3cb9303195b7370d492dbf57a6b7604/skill/redya-xiaohongshu/SKILL.md --skill redya-xiaohongshu"
+  },
+  "topics": [
+    "xiaohongshu",
+    "content-creation",
+    "live-photos"
+  ],
+  "license": "MIT",
+  "provider": {
+    "name": "RedYA AI",
+    "url": "https://hy.ithinkai.cn"
+  },
+  "status": "active"
+}
