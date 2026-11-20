@@ -7,7 +7,7 @@
   "repositoryName": "redya-skills",
   "githubUrl": "https://github.com/xiaoxuux/redya-skills/tree/73a1529fd3cb9303195b7370d492dbf57a6b7604/skill/redya-xiaohongshu",
   "install": {
-    "npx": "npx skills add https://github.com/xiaoxuux/redya-skills/tree/skill-parity-20261119/skill/redya-xiaohongshu --skill redya-xiaohongshu"
+    "npx": "npx skills add https://raw.githubusercontent.com/xiaoxuux/redya-skills/73a1529fd3cb9303195b7370d492dbf57a6b7604/skill/redya-xiaohongshu/SKILL.md --skill redya-xiaohongshu"
   },
   "topics": [
     "xiaohongshu",
