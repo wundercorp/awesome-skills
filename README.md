@@ -73,6 +73,7 @@ node scripts/generate-readme.mjs
 | Skill | Description | Install | Links |
 |---|---|---|---|
 | Ogilvideo | Motion-director-grade video analysis, storyboarding, prompt engineering, animation planning, agentic AI video direction, UI motion systems, production breakdowns, and QA for premium product videos and motion graphics. | `npx --yes skills add https://github.com/wundercorp/ogilvideo-skill --skill ogilvideo` | [GitHub](https://github.com/wundercorp/ogilvideo-skill)<br>[skills.sh](https://skills.sh/wundercorp/ogilvideo-skill/ogilvideo) |
+| 小红书图文与实况图·红鸦 AI | Generate illustrated Xiaohongshu posts and Live Photos from a topic, product photos, or a reference post. Generation uses the creator’s RedYA API key and credits. | `npx skills add https://github.com/xiaoxuux/redya-skills/tree/skill-parity-20261119/skill/redya-xiaohongshu --skill redya-xiaohongshu` | [GitHub](https://github.com/xiaoxuux/redya-skills/tree/73a1529fd3cb9303195b7370d492dbf57a6b7604/skill/redya-xiaohongshu) |
 
 ### Security
 
